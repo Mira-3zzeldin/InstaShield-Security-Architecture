@@ -114,6 +114,7 @@
 &nbsp; &nbsp; &nbsp; &nbsp; full-stack security architecture, evaluate the threat models, or give feedback on my audit - I value every<br>
 &nbsp; &nbsp; &nbsp; &nbsp; technical conversation! 🛡️<br><br>
 
+&nbsp; &nbsp; &nbsp; &nbsp; 📂 <b>Deep-Dive Reference:</b> Review the full audit at <a href="https://github.com/Mira-3zzeldin/InstaShield-Security-Architecture/blob/main/SECURITY_REFERENCE.md"> SECURITY REFERENC</a>.
 &nbsp; &nbsp; &nbsp; &nbsp; 🌐 <b>Find me on :</b> <a href="https://www.linkedin.com/in/mira3zzeldin/">LinkedIn</a> | <a href="https://hashnode.com/@mira3zzeldin">Technical Blog</a> | <a href="Link">Discord</a> | <a href="https://x.com/Mira3zzeldin">Twitter</a> | <a href="mailto:mira3zzeldin@gmail.com">Gmail</a><br>
 &nbsp; &nbsp; &nbsp; &nbsp; 📢 <b>Feedback :</b> Found an edge case ? Open an <a href="https://github.com/Mira-3zzeldin/InstaShield-Security-Architecture/issues/new?template=content-feedback.md">Issue</a>. Have an architectural suggestion ? Let's talk in <a href="https://github.com/Mira-3zzeldin/InstaShield-Security-Architecture/discussions">Discussions</a>.
 </div>
