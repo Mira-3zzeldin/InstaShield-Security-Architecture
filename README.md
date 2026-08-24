@@ -68,6 +68,7 @@
   <li><b>Linux:</b> ZK service binds loopback-only; biometric templates Fernet/AES-encrypted at rest.</li>
   </ul>
 <br>
+<hr>
 </details>
 
 <details>
