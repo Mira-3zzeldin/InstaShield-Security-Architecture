@@ -1,9 +1,9 @@
-<h1 align="center"># 🛡️ InstaShield Wallet — Security Architecture</h1>
+<h1 align="center">🛡️ InstaShield Wallet — Security Architecture</h1>
 
 <p align="center">
-  <code>Deployment: Production Ready</code> | 
-  <code>Stack: Flutter (5 Platforms) • Node.js • Python ZK9500 Microservice</code> | 
-  <code>Audit Scope: 43 Files • 164+ Controls • 0 Critical Risk</code>
+  <code>Deploy: Production Ready</code> | 
+  <code>Stack: Flutter • Node.js • Python</code> | 
+  <code>Audit: 43 Files • 164+ Controls</code>
 </p>
 
 ---
