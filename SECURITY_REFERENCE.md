@@ -1,28 +1,3 @@
-<!--
-  PUBLICATION STATUS: PUBLIC-SAFE — CLEARED FOR OPEN DISTRIBUTION
-  ─────────────────────────────────────────────────────────────────
-  Secret Audit:   Completed 2026-08-24 (Automated + Manual, 3,775 lines)
-  Audit Result:   CLEAN — Zero real credentials, PII, or secrets found
-  Auditor:        Automated pattern scan + manual cross-reference
-  Scan Scope:     IP addresses · base64/hex blobs · DB URIs · hostnames
-                  hardcoded secrets · email/phone PII · hex hashes
-  Findings:       All flagged items confirmed as constructed examples
-                  or environment-variable name references — no values.
-  Redactions:     NONE required. Content preserved verbatim.
-
-  This file is the authoritative deep-reference version for the docs/
-  folder. It preserves the full file-by-file analysis, all risk tables,
-  STRIDE/NIST/OWASP/MASVS mappings, and every code snippet without
-  modification.
-
-  Source:         /ACADEMIC_SECURITY_DOCUMENTATION.md (workspace root)
-  Version:        3.0 — Full-Stack + Native Platform Edition
-  Parts:          I (Backend) · II (Flutter) · III (Container/OS) ·
-                  IV (Threat & Compliance) · V (Native OS Hardening)
-  Scope:          43 source files · 164+ security controls · 0 critical/high residual risk
-  ─────────────────────────────────────────────────────────────────
--->
-
 # ACADEMIC SECURITY DOCUMENTATION
 ## InstaShield Wallet — Full-Stack End-to-End Security Architecture
 ### Integrated Client, Server & Infrastructure Security Audit & Threat Analysis
