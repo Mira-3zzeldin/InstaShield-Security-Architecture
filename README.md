@@ -1,8 +1,9 @@
-# 🛡️ InstaShield Wallet — Security Architecture
+<h1 align="center"># 🛡️ InstaShield Wallet — Security Architecture</h1>
 
 <p align="center">
-  <b>Stack:</b> Flutter (5 platforms) · Node.js/Express API · Python ZK9500 biometric microservice <br>
-  <b>Audit scope:</b> 43 source files · 7 layers · 164+ controls · <b>0 critical or high residual-risk items</b>
+  <code>Deployment: Production Ready</code> | 
+  <code>Stack: Flutter (5 Platforms) • Node.js • Python ZK9500 Microservice</code> | 
+  <code>Audit Scope: 43 Files • 164+ Controls • 0 Critical Risk</code>
 </p>
 
 ---
