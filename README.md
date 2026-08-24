@@ -1,4 +1,4 @@
-<h1 align="center">🛡️ InstaShield Wallet — Security Architecture</h1>
+<h1 align="center">🛡️ InstaShield Wallet : Security Architecture</h1>
 
 <p align="center">
   <code>Deploy: Production Ready</code> | <code>Stack: Flutter • Node.js • Python</code> | <code>Audit: 43 Files • 164+ Controls</code>
@@ -33,7 +33,7 @@
 <ul>
   <li>🔐 <b>1. No boolean trust in biometrics</b>
     <ul>
-      <li>The Flutter client does not pass a <code>matched: true</code> flag to the server. Instead, the biometric service returns an HMAC-SHA256 proof tuple — <code>(userId, timestamp, nonce)</code> — signed with a shared secret that the server independently verifies. A spoofed <code>true</code> value from a compromised device is rejected outright.</li>
+      <li>The Flutter client does not pass a matched: true flag to the server. Instead, the biometric service returns an HMAC-SHA256 proof tuple — (userId, timestamp, nonce) — signed with a shared secret that the server independently verifies. A spoofed true value from a compromised device is rejected outright.</li>
     </ul>
   </li>
 <br>
@@ -47,7 +47,7 @@
 
   <li>🔑 <b>3. Five-secret key separation across trust domains</b>
     <ul>
-      <li>PII_ENCRYPTION_KEY</code> · <code>PII_INDEX_HMAC_KEY</code> · <code>JWT_SECRET</code> · <code>FINGERPRINT_MATCH_SECRET</code> · <code>FINGERPRINT_DEVICE_API_KEY</code> — each scoped to one domain. Compromise of any single key does not cascade.</li>
+      <li>PII_ENCRYPTION_KEY · PII_INDEX_HMAC_KEY · JWT_SECRET · FINGERPRINT_MATCH_SECRET · FINGERPRINT_DEVICE_API_KEY — each scoped to one domain. Compromise of any single key does not cascade.</li>
     </ul>
   </li>
 <br>
@@ -61,49 +61,48 @@
 
   <li>💻 <b>5. Native OS hardening on every platform</b>
   <ul>
-  <li><b>Android:</b> <code>FLAG_SECURE</code> + empty <code>taskAffinity</code> (StrandHogg prevention) + R8 Logcat elimination.</li>
+  <li><b>Android:</b> FLAG_SECURE + empty taskAffinity (StrandHogg prevention) + R8 Logcat elimination.</li>
   <li><b>iOS:</b> App Switcher privacy overlay + strict ATS.</li>
-  <li><b>macOS:</b> <code>sharingType = .none</code> + JIT disabled + dylib injection blocked.</li>
-  <li><b>Windows:</b> <code>SetDllDirectoryW("")</code> as first statement (CWE-427) + Dart VM flag filtering (CWE-88).</li>
+  <li><b>macOS:</b> sharingType = .none + JIT disabled + dylib injection blocked.</li>
+  <li><b>Windows:</b> SetDllDirectoryW("") as first statement (CWE-427) + Dart VM flag filtering (CWE-88).</li>
   <li><b>Linux:</b> ZK service binds loopback-only; biometric templates Fernet/AES-encrypted at rest.</li>
   </ul>
 <br>
 </details>
 
-<hr>
-
 <details>
 <summary><b>📊 Security Metrics & Numbers</b></summary><br><br>
 <table width="100%">
   <tr>
-    <td><b>Metric</b></td>
-    <td>Value</td>
+    <th>Metric</th>
+    <th>Value</th>
   </tr>
   <tr>
     <td><b>📁 Source files audited</b></td>
-    <td>43</td>
+    <td align="center">43</td>
   </tr>
   <tr>
     <td><b>🛡️ Security controls implemented</b></td>
-    <td>164+</td>
+    <td align="center">164+</td>
   </tr>
   <tr>
     <td><b>🏗️ Architectural layers covered</b></td>
-    <td>7</td>
+    <td align="center">7</td>
   </tr>
   <tr>
     <td><b>⚠️ STRIDE threat scenarios modeled</b></td>
-    <td>13</td>
+    <td align="center">13</td>
   </tr>
   <tr>
     <td><b>🔴 Residual critical/high risk items</b></td>
-    <td>0</td>
+    <td align="center">0</td>
   </tr>
   <tr>
     <td><b>🟢 Residual low-risk items</b></td>
-    <td>23 (all with compensating controls)</td>
+    <td align="center">23 ( All with compensating controls )</td>
   </tr>
 </table>
+<br>
 </details>
 
 <hr>
@@ -122,10 +121,9 @@
 
 <h3 align="left">⚠️ Repository Disclaimer</h3>
 <div>
-&nbsp; &nbsp; &nbsp; &nbsp; This repository is created for educational and architectural reference purposes only. I am committed<br>
-&nbsp; &nbsp; &nbsp; &nbsp; to <b>Ethical Hacking</b> and cyber security best practices. The primary codebase remains in a secured<br>
-&nbsp; &nbsp; &nbsp; &nbsp; private repository to maintain system integrity. Any unauthorized use of the techniques or patterns<br>
-&nbsp; &nbsp; &nbsp; &nbsp; documented here against live systems without prior consent is strictly illegal and unethical.
+&nbsp; &nbsp; &nbsp; &nbsp; This repository is created for architectural reference purposes only. I am committed to <b>Ethical Hacking</b>. The<br>
+&nbsp; &nbsp; &nbsp; &nbsp; primary codebase remains in a secured private repository to maintain system integrity. Any unauthorized use<br>
+&nbsp; &nbsp; &nbsp; &nbsp; of these techniques against systems without prior consent is strictly illegal. 
 </div>
 
 <hr>
