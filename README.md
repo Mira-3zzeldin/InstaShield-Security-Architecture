@@ -1,7 +1,7 @@
 <h1 align="center">🛡️ InstaShield Wallet : Security Architecture</h1>
 
 <p align="center">
-  <code>Deploy: Production Ready</code> | <code>Stack: Flutter • Node.js • Python</code> | <code>Audit: 43 Files • 164+ Controls</code>
+  <code>Architecture: Production-grade</code> | <code>Stack: Flutter • Node.js • Python</code> | <code>Audit: 43 Files • 164+ Controls</code>
 </p>
 
 <hr>
